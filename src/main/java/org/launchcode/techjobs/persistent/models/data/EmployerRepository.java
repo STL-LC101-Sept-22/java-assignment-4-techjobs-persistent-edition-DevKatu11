@@ -1,11 +1,14 @@
 package org.launchcode.techjobs.persistent.models.data;
 
-import org.launchcode.techjobs.persistent.models.Job;
+import org.launchcode.techjobs.persistent.models.Employer;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
-@Repository
 @Transactional
-public interface JobRepository extends CrudRepository<Job, Integer> {
+@Repository
+public interface EmployerRepository extends CrudRepository<Employer, Integer> {
+
+
+
 }
